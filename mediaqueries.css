@@ -6,3 +6,100 @@
         display: flex;
     }
 }
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    #about{
+        height: auto;
+        margin-bottom: 0;
+        gap:1rem;
+        padding: 2rem;
+        padding-bottom: 0rem;
+    }
+        .about-text-container{
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: start;
+        }
+        .scroll-container{
+            margin-left: 5rem;
+            padding: 0rem;
+        }
+        svg {
+            display: block;
+            /* margin: 0 auto; */
+            width: 300px;
+            height: 200px;
+          }
+          .about-education-container img{
+            width: 1rem;
+          }
+
+          #skills{
+            height: auto;
+          }
+          #experience{
+            height: auto;
+            /* display: grid; */
+          }
+          .experience-sub-title{
+            font-size: 1rem;
+          }
+          .sub-heading-exp{
+            font-size: 1rem;
+          }
+          .experience-sub-text{
+            font-size: 0.9rem;
+          }
+          .details-container-exp-WC{
+            margin-left: 6rem;
+            margin-right: 3rem
+          }
+          .details-container-exp-Intern{
+            margin-left: 3rem;
+            margin-right: 6rem
+          }
+          .about-containers-exp{
+            margin-bottom: 2rem;
+          }
+
+          #projects{
+            height: auto;
+          }
+          .project-container-hover{
+            padding: 1rem;
+          }
+          @keyframes textUp{
+            to{
+                opacity: 1;
+                transform: translateY(-2.3rem);
+            }
+        }
+
+        .project-container-ffe-hover{
+            padding: 0.5rem;
+            row-gap: 1rem;
+        }
+        @keyframes textUpFfe{
+            to{
+                opacity: 1;
+                transform: translateY(-2.6rem);
+            }
+        }
+        .project-container-cams-hover{
+            padding: 2rem;
+            row-gap: 1.5rem;
+        }
+        @keyframes textUpCams{
+            to{
+                opacity: 1;
+                transform: translateY(-2.4rem);
+            }
+        }
+        .project-container-emc-hover{
+            padding: 4rem;
+            row-gap: 3rem;
+        }
+        .project-container-spine-hover{
+            padding:2rem
+        }
+}
