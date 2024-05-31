@@ -26,16 +26,16 @@ label{
     background: white;
     box-shadow: inset 0px 5px 15px rgb(26, 25, 25);
     border-radius: 2rem;
-    width: 8rem;
-    height: 3.5rem;
+    width: 6rem;
+    height: 2.5rem;
     cursor: pointer;
     transition: 0.3s;
     align-self: left;
 }
 label::after{
     content: " ";
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     position: absolute;
     top: 0.25rem;
     left: 0.6rem;
@@ -56,13 +56,13 @@ input:checked+label{
 }
 input:checked+label::after{
     background: #242424;
-    left: 7.5rem;
+    left: 5.5rem;
     transform: translateX(-100%);
     background: linear-gradient(180deg,#777,#3a3a3a);
 }
 
 label:active:after{
-  width: 5rem;
+  width: 7rem;
 
 }
 
@@ -118,6 +118,15 @@ a:hover,.resume-button:hover{
 #hamburger-nav{
     display: none;
 }
+#mode-toggle-hamburger:checked+label::after{
+    background: #242424;
+    left: 7.5rem;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg,#777,#3a3a3a);
+}
+#mode-toggle-hamburger:checked+label{
+    background: #444343;
+}
 .hamburger-menu{
     position: relative;
     display: inline-block;
@@ -144,6 +153,7 @@ a:hover,.resume-button:hover{
     top:100%;
     right: 0;
     background-color: #fff;
+    border-radius: 1rem;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -158,6 +168,7 @@ a:hover,.resume-button:hover{
     color: rgb(14, 12, 12);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+    cursor: pointer;
 }
 .menu-links button{
     display: flex;

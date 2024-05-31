@@ -67,3 +67,13 @@ function DarkFunction(){
     }
 });
 }
+function DarkFunctionHam(){
+  const modeToggleHam = document.getElementById("mode-toggle-hamburger");
+  modeToggleHam.addEventListener('change', function() {
+   if (this.checked) {
+       document.body.classList.add('body-dark');
+   } else {
+       document.body.classList.remove('body-dark');
+   }
+});
+}
