@@ -645,32 +645,32 @@ article .icon{
     flex-wrap: wrap;
 
 }
-.details-container-exp-WC{
-    padding: 2rem;
+/* .details-container-exp-WC{ */
+    /* padding: 2rem;
     flex: 1;
     background: rgb(255, 255, 255);
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(78, 72, 72);
     /* text-align: center; */
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
     margin-bottom: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */ 
 
-}
-.details-container-exp-Intern{
+/* } */
+/* .details-container-exp-Intern{
     padding: 2rem;
     flex: 1;
     background: rgb(255, 255, 255);
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(78, 72, 72);
+    border-color: rgb(78, 72, 72); */
     /* text-align: center; */
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+    /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
     margin-bottom: 1rem;
     flex-wrap: wrap;
 
-}
+} */
 .details-container-exp-GR{
     padding: 2rem;
     flex: 1;
